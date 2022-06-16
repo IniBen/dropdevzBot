@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/", async (req, res) => {
+router.get("/index", async (req, res) => {
     try {
         res.json({
             status:200,

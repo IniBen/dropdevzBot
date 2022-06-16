@@ -1,0 +1,22 @@
+{
+  "name": "dropdevzbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon telegraf.js"
+  },
+  "author": "IniBen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-telegram-bot-api": "^0.57.0",
+    "nodemon": "^2.0.16",
+    "telegraf": "^3.38.0",
+    "telegraf-router": "^1.0.7"
+  }
+}

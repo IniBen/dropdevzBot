@@ -3,13 +3,13 @@ const Telegraf = require("telegraf");
 
 const session = require('telegraf/session');
 
-const product = require('./api/product')
+const server = require('./api/server')
 
 const app = express();
 
 const bot = new Telegraf("5328813328:AAHBBWNkaW4Rpct3ST00Ff75_mgQVxvo_m0");
 
-app.use("/api/product", product);
+app.use("/api/server", server);
 
 bot.use(session())
 bot.start((ctx, next) => {
